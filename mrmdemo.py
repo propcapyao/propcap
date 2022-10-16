@@ -16,7 +16,7 @@ with col9:
     st.image("PropCap_Logo.jpeg", width = 150)
 with col10:
     st.header("")
-    st.header("AI Powered Mortgage Term Recommendation Model")
+    st.header("AI Powered Mortgage Term Model")
 
 tab1, tab2 = st.tabs(["Dashboard", "Settings"])
 
