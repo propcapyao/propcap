@@ -11,6 +11,7 @@ st.set_page_config(layout = "wide")
 
 def check_password():
     """Returns `True` if the user had a correct password."""
+    st.subheader("Please Login:")
 
     def password_entered():
         """Checks whether a password entered by the user is correct."""
