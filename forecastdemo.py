@@ -53,12 +53,12 @@ if check_password():
 
         gbpyieldforecast = st.radio("GBP 2 year note yield forecast", ["Follow the trend", "Input Manually"])
         if gbpyieldforecast == "Input Manually":
-            gbpyieldforecast0  = st.number_input("GBP 2 year note yield (%) next 12 months:", value = 0.0, format = "%f")
+            gbpyieldforecast0 = st.slider("GBP 2 year note yield (%) next 12 months:", 0, 10, 4, 1)
             gbpyieldforecast = [gbpyieldforecast0, gbpyieldforecast0, gbpyieldforecast0, gbpyieldforecast0, gbpyieldforecast0]
         else:
             gbpyieldforecast = [3.289, 4.639, 5.515, 5.972, 6.588]
 
-        quaterlygrowthrate0  = st.number_input("Quarterly growth rate (%):", value = 0.0, format = "%f")
+        quaterlygrowthrate0 = st.slider("Quarterly growth rate (%):", 0, 35, 5, 1)
         quaterlygrowthrate = 1.0 + quaterlygrowthrate0 / 100
 
         capacityforecast = 10000000
