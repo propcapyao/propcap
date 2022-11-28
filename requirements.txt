@@ -1,4 +1,4 @@
 matplotlib
 seaborn
 google_currency
-sklearn
+scikit-learn
