@@ -1,3 +1,4 @@
 matplotlib
 seaborn
 google_currency
+sklearn
