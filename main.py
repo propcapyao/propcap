@@ -8,6 +8,7 @@ st.set_page_config(layout = "wide")
 
 def check_password():
     """Returns `True` if the user had a correct password."""
+    st.image("PropCap_Logo.jpeg", width = 150)
     #st.subheader("Please Login:")
 
     def password_entered():
@@ -43,7 +44,7 @@ def check_password():
         return True
 
 if check_password():
-    st.image("PropCap_Logo.jpeg", width = 150)
+    #st.image("PropCap_Logo.jpeg", width = 150)
 
     st.markdown("***")
 
