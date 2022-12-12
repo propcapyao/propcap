@@ -35,7 +35,7 @@ with col9:
     loandata = loandata.drop(["Capacity"], axis = 1)
     loandata["Mortgage Rate Diff"] = loandata["Mortgage Rate"] - loandata["GBP Yield"]
     loandata = loandata.drop(["Mortgage Rate"], axis = 1)
-    loandata["UK Property Transactions"] = loandata["UK Property Transactions"].fillna(0) / 1000
+    loandata["UK Property Transactions"] = loandata["UK Property Transactions"].fillna(method = "ffill") / 1000
 
     loandata["GBP Yield"].iloc[-5:] = gbpyieldforecast
     #loandata["GBP Yield"] = loandata["GBP Yield"].fillna(method = "ffill")
