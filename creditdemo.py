@@ -16,7 +16,7 @@ with col2:
     st.header("")
     st.title("信用情報開示報告")
 
-tab1, tab2 = st.tabs(["保証委託申込書", "クレジットスコア"])
+tab1, tab2, tab3 = st.tabs(["保証委託申込書", "クレジットスコア", "Psychometric Test"])
 with tab1:
     col3, col4 = st.columns(2)
 
@@ -146,3 +146,99 @@ with tab2:
         st.markdown(f'<h1 style="text-align: right;">{"Credit Score:"}</h1>', unsafe_allow_html = True)
     with col8:
         st.markdown(f'<h1 style="text-align: left; color:#E9340D;">{creditscore}</h1>', unsafe_allow_html = True)
+
+with tab3:
+    st.subheader("Psychometric Test")
+    st.write("In the list given below, for each statement numbered 1-50 mark how much you agree with on the scale of 1-5, where 1 is disagree, 2 is slightly disagree, 3 is neutral, 4 is slightly agree and 5 is agree, on the slider under it.")
+
+    st.markdown("***")
+
+    col11, col12, col13, col14, col15 = st.columns(5)
+
+    with col11:
+        q1 = st.slider("1\. I Am the life of the party.", 1, 5, 1, 1)
+        q2 = st.slider("2\. I Feel little concern for others.", 1, 5, 1, 1)
+        q3 = st.slider("3\. I Am always prepared.", 1, 5, 1, 1)
+        q4 = st.slider("4\. I Get stressed out easily.", 1, 5, 1, 1)
+        q5 = st.slider("5\. I Have a rich vocabulary.", 1, 5, 1, 1)
+        q6 = st.slider("6\. I Don't talk a lot.", 1, 5, 1, 1)
+        q7 = st.slider("7\. I Am interested in people.", 1, 5, 1, 1)
+        q8 = st.slider("8\. I Leave my belongings around.", 1, 5, 1, 1)
+        q9 = st.slider("9\. I Am relaxed most of the time.", 1, 5, 1, 1)
+        q10 = st.slider("10\. I Have difficulty understanding abstract ideas.", 1, 5, 1, 1)
+
+    with col12:
+        q11 = st.slider("11\. I Feel comfortable around people.", 1, 5, 1, 1)
+        q12 = st.slider("12\. I Insult people.", 1, 5, 1, 1)
+        q13 = st.slider("13\. I Pay attention to details.", 1, 5, 1, 1)
+        q14 = st.slider("14\. I Worry about things.", 1, 5, 1, 1)
+        q15 = st.slider("15\. I Have a vivid imagination.", 1, 5, 1, 1)
+        q16 = st.slider("16\. I Keep in the background.", 1, 5, 1, 1)
+        q17 = st.slider("17\. I Sympathize with others' feelings.", 1, 5, 1, 1)
+        q18 = st.slider("18\. I Make a mess of things.", 1, 5, 1, 1)
+        q19 = st.slider("19\. I Seldom feel blue.", 1, 5, 1, 1)
+        q20 = st.slider("20\. I Am not interested in abstract ideas.", 1, 5, 1, 1)
+
+    with col13:
+        q21 = st.slider("21\. I Start conversations.", 1, 5, 1, 1)
+        q22 = st.slider("22\. I Am not ever interested in other people's problems.", 1, 5, 1, 1)
+        q23 = st.slider("23\. I Get chores done right away.", 1, 5, 1, 1)
+        q24 = st.slider("24\. I Am easily disturbed.", 1, 5, 1, 1)
+        q25 = st.slider("25\. I Have excellent ideas.", 1, 5, 1, 1)
+        q26 = st.slider("26\. I Have little to say.", 1, 5, 1, 1)
+        q27 = st.slider("27\. I Have a soft heart.", 1, 5, 1, 1)
+        q28 = st.slider("28\. I Often forget to put things back in their proper place.", 1, 5, 1, 1)
+        q29 = st.slider("29\. I Get upset easily.", 1, 5, 1, 1)
+        q30 = st.slider("30\. I Do not have a good imagination.", 1, 5, 1, 1)
+
+    with col14:
+        q31 = st.slider("31\. I Talk to a lot of different people at parties.", 1, 5, 1, 1)
+        q32 = st.slider("32\. I Am not really interested in others.", 1, 5, 1, 1)
+        q33 = st.slider("33\. I Like order.", 1, 5, 1, 1)
+        q34 = st.slider("34\. I Change my mood a lot.", 1, 5, 1, 1)
+        q35 = st.slider("35\. I Am quick to understand things.", 1, 5, 1, 1)
+        q36 = st.slider("36\. I Don't like to draw attention to myself.", 1, 5, 1, 1)
+        q37 = st.slider("37\. I Take time out for others.", 1, 5, 1, 1)
+        q38 = st.slider("38\. I Shirk my duties.", 1, 5, 1, 1)
+        q39 = st.slider("39\. I Have frequent mood swings.", 1, 5, 1, 1)
+        q40 = st.slider("40\. I Use difficult words.", 1, 5, 1, 1)
+
+    with col15:
+        q41 = st.slider("41\. I Don't mind being the center of attention.", 1, 5, 1, 1)
+        q42 = st.slider("42\. I Feel others' emotions.", 1, 5, 1, 1)
+        q43 = st.slider("43\. I Follow a schedule.", 1, 5, 1, 1)
+        q44 = st.slider("44\. I Get irritated easily.", 1, 5, 1, 1)
+        q45 = st.slider("45\. I Spend time reflecting on things.", 1, 5, 1, 1)
+        q46 = st.slider("46\. I Am quiet around strangers.", 1, 5, 1, 1)
+        q47 = st.slider("47\. I Make people feel at ease.", 1, 5, 1, 1)
+        q48 = st.slider("48\. I Am exacting in my work.", 1, 5, 1, 1)
+        q49 = st.slider("49\. I Often feel blue.", 1, 5, 1, 1)
+        q50 = st.slider("50\. I Am full of ideas.", 1, 5, 1, 1)
+
+    extraversionscore = (20 + q1 - q6 + q11 - q16 + q21 - q26 + q31 - q36 + q41 - q46) / 10
+    agreeablenessscore = (14 - q2 + q7 - q12 + q17 - q22 + q27 - q32 + q37 + q42 + q47) / 10
+    conscientiousnessscore = (14 + q3 - q8 + q13 - q18 + q23 - q28 + q33 - q38 + q43 + q48) / 10
+    neuroticismscorescore = (38 - q4 + q9 - q14 + q19 - q24 - q29 - q34 - q39 - q44 - q49) / 10
+    opennesstoexperiencescore = (8 + q5 - q10 + q15 - q20 + q25 - q30 + q35 + q40 + q45 + q50) / 10
+
+    st.markdown("***")
+
+    col16, col17 = st.columns([1, 2])
+
+    with col16:
+        labels = np.array(["Extraversion", "Agreeableness", "Conscientiousness", "Neuroticismscore", "Openness to Experience"])
+        stats = np.array([extraversionscore, agreeablenessscore, conscientiousnessscore, neuroticismscorescore, opennesstoexperiencescore])
+
+        angles0 = np.linspace(0, 2 * np.pi, len(labels), endpoint = False)
+        stats = np.concatenate((stats, [stats[0]]))
+        angles = np.concatenate((angles0, [angles0[0]]))
+
+        fig1 = plt.figure()
+        ax = fig1.add_subplot(111, polar = True)
+        ax.plot(angles, stats, "o-", linewidth = 2)
+        ax.fill(angles, stats, alpha = 0.25)
+        ax.set_thetagrids(angles0 * 180 / np.pi, labels)
+        ax.set_title("Psychometric Score")
+        ax.grid(True)
+
+        st.pyplot(fig1)
