@@ -226,7 +226,7 @@ with tab3:
     col16, col17 = st.columns([1, 2])
 
     with col16:
-        labels = np.array(["Extraversion", "Agreeableness", "Conscientiousness", "Neuroticismscore", "Openness to Experience"])
+        labels = np.array(["Extraversion", "Agreeableness", "Conscientiousness", "Neuroticism", "Openness to Experience"])
         stats = np.array([extraversionscore, agreeablenessscore, conscientiousnessscore, neuroticismscorescore, opennesstoexperiencescore])
 
         angles0 = np.linspace(0, 2 * np.pi, len(labels), endpoint = False)
