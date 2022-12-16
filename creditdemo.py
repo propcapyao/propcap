@@ -215,7 +215,7 @@ with tab3:
         q49 = st.slider("49\. I Often feel blue.", 1, 5, 1, 1)
         q50 = st.slider("50\. I Am full of ideas.", 1, 5, 1, 1)
 
-    extraversionscore = (20 + q1 - q6 + q11 - q16 + q21 - q26 + q31 - q36 + q41 - q46) / 10
+    extroversionscore = (20 + q1 - q6 + q11 - q16 + q21 - q26 + q31 - q36 + q41 - q46) / 10
     agreeablenessscore = (14 - q2 + q7 - q12 + q17 - q22 + q27 - q32 + q37 + q42 + q47) / 10
     conscientiousnessscore = (14 + q3 - q8 + q13 - q18 + q23 - q28 + q33 - q38 + q43 + q48) / 10
     neuroticismscorescore = (38 - q4 + q9 - q14 + q19 - q24 - q29 - q34 - q39 - q44 - q49) / 10
@@ -223,11 +223,11 @@ with tab3:
 
     st.markdown("***")
 
-    col16, col17 = st.columns([1, 2])
+    col16, col17, col18 = st.columns([2, 1, 2])
 
     with col16:
-        labels = np.array(["Extraversion", "Agreeableness", "Conscientiousness", "Neuroticism", "Openness to Experience"])
-        stats = np.array([extraversionscore, agreeablenessscore, conscientiousnessscore, neuroticismscorescore, opennesstoexperiencescore])
+        labels = np.array(["Extroversion", "Agreeableness", "Conscientiousness", "Neuroticism", "Openness to Experience"])
+        stats = np.array([extroversionscore, agreeablenessscore, conscientiousnessscore, neuroticismscorescore, opennesstoexperiencescore])
 
         angles0 = np.linspace(0, 2 * np.pi, len(labels), endpoint = False)
         stats = np.concatenate((stats, [stats[0]]))
@@ -242,3 +242,14 @@ with tab3:
         ax.grid(True)
 
         st.pyplot(fig1)
+
+    with col17:
+        tenantlist = pd.read_csv("tenants.csv")
+        name = st.text_input("Tenant Name:")
+        if st.button("Save"):
+            tenantlist.loc[len(tenantlist.index)] = [name, extroversionscore, agreeablenessscore, conscientiousnessscore, neuroticismscorescore, opennesstoexperiencescore]
+            tenantlist.to_csv("tenants.csv", index = False)
+
+    with col18:
+        st.dataframe(tenantlist)
+        st.download_button(label = "Download and Edit", data = tenantlist.to_csv().encode('utf-8'), file_name = "tenants.csv", mime = "text/csv")
