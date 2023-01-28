@@ -14,6 +14,7 @@ with col1:
     st.image("PropCap_Logo.jpeg", width = 150)
 with col2:
     st.header("")
+    st.title("Kiwami 極")
     st.title("信用情報開示報告")
 
 tab1, tab2, tab3 = st.tabs(["保証委託申込書", "クレジットスコア", "Psychometric Test"])
