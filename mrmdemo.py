@@ -260,7 +260,7 @@ personal_loans = st.sidebar.number_input("Personal Loans", value = 1000000, form
 car_loans = st.sidebar.number_input("Car Loans", value = 100000, format = "%d") * car_loans_coefficent
 tax_loans = st.sidebar.number_input("Tax Loans", value = 100000, format = "%d") * tax_loans_coefficent
 other_loans = st.sidebar.number_input("Other Loans", value = 100000, format = "%d") * other_loans_coefficent
-mortgage_loans = st.sidebar.number_input("Mortgage", value = 5000000, format = "%d") * mortgage_loans_coefficent
+mortgage_loans = st.sidebar.number_input("Mortgage", value = 1000000, format = "%d") * mortgage_loans_coefficent
 totalliabilities = personal_loans + car_loans + tax_loans + other_loans + mortgage_loans
 
 st.sidebar.header("Other Factors:")
