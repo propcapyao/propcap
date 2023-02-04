@@ -647,3 +647,45 @@ with tab1:
     with col4:
         resultpairs_.columns = ["InterestRate (%)", "LVR (%)"]
         st.table(resultpairs_[["LVR (%)", "InterestRate (%)"]].style.format({"LVR (%)": "{:.0f}", "InterestRate (%)": "{:.1f}"}))
+
+    st.markdown("***")
+    col11, col12 = st.columns([1, 1])
+
+    with col11:
+        lvr2 = st.number_input("LVR (%):", value = 35, format = "%d")
+        lvr2 = lvr2 / 100
+        interestrate2 = st.number_input("Interest Rate (%):", value = 8, format = "%d")
+        interestrate2 = interestrate2 / 100
+        st.subheader("Total Assets (HKD):")
+        st.text(totalassets)
+        st.subheader("Total Liabilities (HKD):")
+        st.text(totalliabilities)
+        st.subheader("Net Worth (HKD):")
+        st.text(networth)
+
+        st.subheader("Purchase Price (HKD):")
+        st.text(round(propertyvalue,1))
+        st.subheader("Loan Amount (HKD):")
+        proposedloanamount2 = propertyvalue * lvr2
+        st.text(round(proposedloanamount2,1))
+
+    with col12:
+        st.subheader("Asset Coverage Ratio:")
+        st.text(round(networth/proposedloanamount2,2))
+        st.subheader("Annual Rental Income (HKD):")
+        st.text(proposedannualrent)
+        st.subheader("Annual Interest Payment (HKD):")
+        totalinterestpayment2 = proposedloanamount2 * interestrate2
+        st.text(round(totalinterestpayment2,1))
+        st.subheader("Interest Coverage Ratio:")
+        st.text(round(proposedannualrent/totalinterestpayment2,2))
+
+        st.subheader("Total Annual Commitments (HKD):")
+        totalannualcommitments2 = totalannualcommitments + totalinterestpayment2
+        st.text(round(totalannualcommitments2,1))
+        st.subheader("Total Income (HKD):")
+        totalannualincome2 = totalannualincome + proposedannualrent
+        st.text(round(totalannualincome2,1))
+        st.subheader("Debt Servicing Ratio:")
+        st.text(round(totalannualcommitments2/totalannualincome2,2))
+
