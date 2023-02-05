@@ -656,6 +656,7 @@ with tab1:
         lvr2 = lvr2 / 100
         interestrate2 = st.number_input("Interest Rate (%):", value = 8, format = "%d")
         interestrate2 = interestrate2 / 100
+        deposited = st.number_input("Deposited:", value = 0, format = "%d")
         st.subheader("Total Assets (HKD):")
         st.text(totalassets)
         st.subheader("Total Liabilities (HKD):")
@@ -671,7 +672,7 @@ with tab1:
 
     with col12:
         st.subheader("Asset Coverage Ratio:")
-        st.text(round(networth/proposedloanamount2,2))
+        st.text(round((networth+deposited)/proposedloanamount2,2))
         st.subheader("Annual Rental Income (HKD):")
         st.text(proposedannualrent)
         st.subheader("Annual Interest Payment (HKD):")
@@ -688,4 +689,3 @@ with tab1:
         st.text(round(totalannualincome2,1))
         st.subheader("Debt Servicing Ratio:")
         st.text(round(totalannualcommitments2/totalannualincome2,2))
-
