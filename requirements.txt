@@ -2,3 +2,4 @@ matplotlib
 seaborn
 google_currency
 scikit-learn
+pytz
