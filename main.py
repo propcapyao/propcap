@@ -51,3 +51,4 @@ if check_password():
     st.title("AI Powered Mortgage Term Model [link](https://propcapyao-propcap-mrmdemo-8442xy.streamlit.app/)")
     st.title("Quarterly Loan Amount Forecasting [link](https://propcapyao-propcap-forecastdemo-16cpx5.streamlit.app/)")
     st.title("Japanese Credit Information Disclosure Report [link](https://propcapyao-propcap-creditdemo-ve0yf5.streamlit.app/)")
+    st.title("Credit Score Report [link](https://https://propcapyao-propcap-main-fgmdwx.streamlit.app/)")
