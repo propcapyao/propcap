@@ -1,0 +1,361 @@
+Date,Type,Category,Amount
+2023-January-01,Income,Business Income,20183.25
+2023-January-01,Income,Business Income,18695.1
+2023-January-01,Expense,Rent,-33833.83
+2023-January-02,Income,Dividends & Interest Income,11539.6
+2023-January-03,Expense,Salary,-30819.33
+2023-January-05,Income,Dividends & Interest Income,23835.69
+2023-January-05,Income,Dividends & Interest Income,28347.22
+2023-January-06,Expense,Entertainment & Recreation,-30219.55
+2023-January-08,Expense,Groceries,-20017.75
+2023-January-11,Expense,Utilities,-7196.34
+2023-January-12,Expense,Entertainment & Recreation,-27224.64
+2023-January-13,Income,Dividends & Interest Income,21918.9
+2023-January-14,Expense,Health & Medical,-45063.28
+2023-January-15,Expense,Health & Medical,-21989.03
+2023-January-15,Expense,Groceries,-44937.1
+2023-January-17,Expense,Health & Medical,-46643.08
+2023-January-18,Income,Salary,19443.01
+2023-January-18,Income,Rental Income,29712.66
+2023-January-19,Expense,Groceries,-2816.81
+2023-January-22,Income,Dividends & Interest Income,28129.8
+2023-January-22,Expense,Utilities,-24757.28
+2023-January-22,Income,Dividends & Interest Income,13765.98
+2023-January-22,Expense,Utilities,-33086.17
+2023-January-23,Expense,Utilities,-22285.58
+2023-January-24,Expense,Rent,-6328.36
+2023-January-25,Income,Rental Income,24151.64
+2023-January-26,Income,Salary,23886.17
+2023-January-26,Income,Business Income,12240.63
+2023-January-28,Income,Salary,24467.27
+2023-January-29,Expense,Salary,-13146.7
+2023-February-01,Expense,Entertainment & Recreation,-37754.86
+2023-February-03,Expense,Utilities,-26359.76
+2023-February-04,Expense,Utilities,-3879.98
+2023-February-04,Expense,Entertainment & Recreation,-20769.99
+2023-February-05,Expense,Health & Medical,-25030.29
+2023-February-05,Expense,Salary,-35876.37
+2023-February-08,Expense,Salary,-46122.68
+2023-February-11,Income,Salary,14051.55
+2023-February-11,Income,Rental Income,22414.77
+2023-February-11,Expense,Utilities,-13958.88
+2023-February-12,Income,Business Income,23821.12
+2023-February-14,Expense,Utilities,-21045.87
+2023-February-14,Income,Business Income,10988.35
+2023-February-14,Expense,Utilities,-41275.46
+2023-February-15,Expense,Groceries,-7999.35
+2023-February-18,Expense,Salary,-17006.61
+2023-February-18,Expense,Entertainment & Recreation,-21340.33
+2023-February-19,Expense,Groceries,-22661.44
+2023-February-19,Expense,Rent,-19927.02
+2023-February-20,Expense,Entertainment & Recreation,-31816.78
+2023-February-20,Expense,Entertainment & Recreation,-38664.08
+2023-February-20,Expense,Salary,-3306.43
+2023-February-21,Income,Dividends & Interest Income,17896.7
+2023-February-21,Expense,Health & Medical,-21803.86
+2023-February-22,Income,Salary,19092.01
+2023-February-22,Income,Business Income,14842.04
+2023-February-24,Income,Salary,21859.92
+2023-February-24,Expense,Health & Medical,-34960.46
+2023-February-25,Expense,Salary,-16422.57
+2023-February-28,Income,Dividends & Interest Income,25593.89
+2023-March-02,Income,Business Income,10215.01
+2023-March-02,Expense,Salary,-12155.93
+2023-March-03,Expense,Rent,-38863.91
+2023-March-03,Expense,Entertainment & Recreation,-38810.61
+2023-March-08,Income,Salary,22155.01
+2023-March-09,Income,Dividends & Interest Income,14044.56
+2023-March-10,Expense,Rent,-26836.58
+2023-March-10,Expense,Health & Medical,-4894.37
+2023-March-11,Income,Business Income,24163.74
+2023-March-13,Expense,Utilities,-39156.72
+2023-March-13,Income,Business Income,18908.75
+2023-March-13,Expense,Entertainment & Recreation,-20712.15
+2023-March-15,Expense,Utilities,-1511.38
+2023-March-16,Income,Salary,21000.17
+2023-March-17,Expense,Utilities,-20455.33
+2023-March-17,Income,Dividends & Interest Income,23423.81
+2023-March-17,Expense,Salary,-10505.13
+2023-March-17,Expense,Entertainment & Recreation,-12485.38
+2023-March-17,Expense,Health & Medical,-1098.64
+2023-March-18,Income,Business Income,19189.83
+2023-March-20,Income,Salary,11650.12
+2023-March-20,Expense,Groceries,-5552.96
+2023-March-22,Expense,Health & Medical,-44366.05
+2023-March-22,Expense,Rent,-28918.56
+2023-March-23,Expense,Entertainment & Recreation,-19616.84
+2023-March-24,Expense,Entertainment & Recreation,-13252.01
+2023-March-25,Expense,Rent,-34065.3
+2023-March-25,Expense,Health & Medical,-45981.18
+2023-March-26,Expense,Salary,-5421.81
+2023-March-26,Expense,Groceries,-32706.66
+2023-April-01,Expense,Entertainment & Recreation,-39356.17
+2023-April-01,Income,Salary,13381.23
+2023-April-02,Expense,Groceries,-4091.17
+2023-April-02,Income,Business Income,16982.83
+2023-April-06,Income,Rental Income,22088.7
+2023-April-07,Income,Dividends & Interest Income,27176.92
+2023-April-07,Expense,Salary,-11741.3
+2023-April-07,Expense,Health & Medical,-8583.71
+2023-April-07,Expense,Rent,-42364.41
+2023-April-08,Income,Rental Income,26706.42
+2023-April-09,Income,Business Income,29577.56
+2023-April-11,Expense,Groceries,-26857.48
+2023-April-14,Income,Business Income,22450.5
+2023-April-15,Income,Dividends & Interest Income,11341.45
+2023-April-16,Expense,Health & Medical,-41780.64
+2023-April-16,Income,Salary,25847.02
+2023-April-17,Expense,Entertainment & Recreation,-19018.33
+2023-April-18,Expense,Health & Medical,-26675.7
+2023-April-20,Income,Salary,28005.84
+2023-April-20,Expense,Utilities,-43940.71
+2023-April-20,Expense,Rent,-38067.3
+2023-April-20,Expense,Entertainment & Recreation,-30853.11
+2023-April-21,Income,Dividends & Interest Income,26343.05
+2023-April-22,Income,Dividends & Interest Income,22680.1
+2023-April-24,Income,Salary,24898.33
+2023-April-26,Income,Dividends & Interest Income,23438.14
+2023-April-26,Expense,Rent,-42814.8
+2023-April-27,Expense,Salary,-35757.67
+2023-April-27,Expense,Groceries,-26190.25
+2023-April-28,Income,Salary,24015.32
+2023-May-01,Expense,Utilities,-26257.07
+2023-May-02,Income,Dividends & Interest Income,28641.31
+2023-May-02,Income,Rental Income,26922.82
+2023-May-02,Income,Salary,16684.2
+2023-May-03,Expense,Rent,-40151.45
+2023-May-04,Income,Salary,21839.51
+2023-May-04,Expense,Entertainment & Recreation,-2179.02
+2023-May-05,Expense,Groceries,-3012.44
+2023-May-05,Expense,Rent,-36177.59
+2023-May-05,Income,Business Income,28918.99
+2023-May-07,Income,Business Income,27621.41
+2023-May-07,Income,Business Income,18106.42
+2023-May-08,Expense,Health & Medical,-32363.84
+2023-May-09,Expense,Rent,-36665.16
+2023-May-10,Income,Salary,19997.82
+2023-May-12,Income,Business Income,15577.37
+2023-May-13,Expense,Entertainment & Recreation,-46731.19
+2023-May-14,Income,Business Income,26982.39
+2023-May-15,Income,Rental Income,25035.25
+2023-May-15,Income,Dividends & Interest Income,19682.97
+2023-May-16,Income,Rental Income,29007.8
+2023-May-18,Expense,Entertainment & Recreation,-32749.33
+2023-May-19,Expense,Entertainment & Recreation,-37163.33
+2023-May-21,Income,Business Income,12014.15
+2023-May-23,Expense,Health & Medical,-32077.83
+2023-May-26,Expense,Salary,-43904.93
+2023-May-27,Expense,Rent,-9822.71
+2023-May-30,Income,Salary,19209.16
+2023-May-31,Expense,Health & Medical,-14734.17
+2023-May-31,Income,Business Income,14977.06
+2023-June-01,Income,Rental Income,11321.48
+2023-June-02,Income,Rental Income,11112.92
+2023-June-02,Income,Dividends & Interest Income,20988.76
+2023-June-03,Income,Dividends & Interest Income,19501.09
+2023-June-04,Expense,Entertainment & Recreation,-45091.14
+2023-June-05,Income,Rental Income,29455.9
+2023-June-05,Income,Rental Income,26880.13
+2023-June-06,Expense,Salary,-47304.01
+2023-June-07,Income,Business Income,11228.27
+2023-June-09,Expense,Utilities,-33977.07
+2023-June-09,Expense,Groceries,-5439.17
+2023-June-09,Income,Dividends & Interest Income,19198.34
+2023-June-10,Income,Salary,18903.14
+2023-June-13,Expense,Groceries,-8658.77
+2023-June-14,Expense,Entertainment & Recreation,-23729.75
+2023-June-14,Income,Business Income,27372.44
+2023-June-14,Expense,Health & Medical,-42918.58
+2023-June-15,Expense,Utilities,-8342.36
+2023-June-19,Expense,Salary,-32593.92
+2023-June-19,Income,Rental Income,16942.47
+2023-June-21,Income,Salary,18985.94
+2023-June-21,Income,Dividends & Interest Income,19870.61
+2023-June-22,Income,Rental Income,27477.33
+2023-June-23,Expense,Utilities,-11833.51
+2023-June-25,Expense,Entertainment & Recreation,-35821.99
+2023-June-26,Expense,Salary,-24538.09
+2023-June-27,Expense,Entertainment & Recreation,-7131.57
+2023-June-27,Expense,Health & Medical,-27025.2
+2023-June-29,Expense,Salary,-17595.75
+2023-June-30,Income,Salary,25544.19
+2023-July-03,Expense,Utilities,-15439.49
+2023-July-03,Income,Rental Income,19550.13
+2023-July-04,Income,Dividends & Interest Income,19363.96
+2023-July-05,Income,Salary,24635.37
+2023-July-07,Income,Business Income,29265.2
+2023-July-10,Income,Salary,15749.21
+2023-July-10,Income,Salary,11262.94
+2023-July-11,Expense,Entertainment & Recreation,-28933
+2023-July-11,Expense,Health & Medical,-22777.74
+2023-July-12,Expense,Utilities,-11438.39
+2023-July-12,Expense,Salary,-8937.82
+2023-July-13,Expense,Health & Medical,-29653.97
+2023-July-14,Expense,Rent,-2389.15
+2023-July-15,Income,Rental Income,21570.29
+2023-July-16,Income,Salary,11858.05
+2023-July-17,Income,Rental Income,16326.13
+2023-July-17,Expense,Salary,-13248.71
+2023-July-18,Income,Business Income,23285.74
+2023-July-18,Expense,Entertainment & Recreation,-26723.27
+2023-July-20,Expense,Utilities,-7520.55
+2023-July-20,Income,Rental Income,26716.69
+2023-July-21,Expense,Salary,-11566.41
+2023-July-21,Income,Salary,26671.19
+2023-July-22,Income,Salary,17668.75
+2023-July-25,Expense,Health & Medical,-46763.3
+2023-July-25,Expense,Groceries,-25812.4
+2023-July-27,Income,Rental Income,21894.37
+2023-July-29,Expense,Health & Medical,-8343.6
+2023-July-30,Income,Salary,15568.99
+2023-July-31,Income,Business Income,24158.5
+2023-August-01,Income,Salary,25805.83
+2023-August-02,Income,Rental Income,24909.74
+2023-August-02,Income,Salary,27720.12
+2023-August-03,Income,Salary,25606.07
+2023-August-07,Expense,Salary,-7402.58
+2023-August-07,Income,Salary,11286.08
+2023-August-08,Expense,Rent,-39132.84
+2023-August-08,Income,Dividends & Interest Income,26098.75
+2023-August-09,Expense,Groceries,-7689.19
+2023-August-10,Income,Salary,14747.63
+2023-August-11,Income,Rental Income,17880.39
+2023-August-12,Expense,Entertainment & Recreation,-43037.04
+2023-August-12,Income,Dividends & Interest Income,21839.67
+2023-August-13,Income,Rental Income,16908.69
+2023-August-14,Expense,Salary,-16806.29
+2023-August-14,Expense,Entertainment & Recreation,-48693.58
+2023-August-17,Income,Salary,20501.21
+2023-August-18,Income,Rental Income,16661.41
+2023-August-20,Income,Rental Income,12965.45
+2023-August-21,Income,Salary,11884.81
+2023-August-23,Income,Rental Income,27645.98
+2023-August-23,Income,Business Income,11367.61
+2023-August-23,Expense,Utilities,-19173.21
+2023-August-24,Income,Salary,20022.46
+2023-August-25,Income,Rental Income,21482.37
+2023-August-26,Income,Rental Income,28053.15
+2023-August-28,Expense,Groceries,-41723.59
+2023-August-30,Expense,Utilities,-11502.68
+2023-August-31,Expense,Health & Medical,-32101.71
+2023-August-31,Income,Business Income,17326.41
+2023-September-01,Income,Salary,18437.72
+2023-September-02,Expense,Entertainment & Recreation,-22578.87
+2023-September-02,Expense,Utilities,-30303.17
+2023-September-03,Expense,Groceries,-12999.75
+2023-September-05,Expense,Entertainment & Recreation,-26764.57
+2023-September-06,Expense,Salary,-38077.12
+2023-September-06,Expense,Entertainment & Recreation,-1842.45
+2023-September-06,Income,Rental Income,24729.64
+2023-September-06,Expense,Groceries,-22659.53
+2023-September-07,Expense,Entertainment & Recreation,-31547.52
+2023-September-07,Income,Dividends & Interest Income,12795.9
+2023-September-08,Income,Dividends & Interest Income,25949.4
+2023-September-10,Expense,Groceries,-27242.22
+2023-September-10,Expense,Groceries,-24127.8
+2023-September-10,Income,Rental Income,18032.11
+2023-September-10,Expense,Rent,-32255.32
+2023-September-11,Income,Dividends & Interest Income,10488.43
+2023-September-13,Income,Rental Income,13361.64
+2023-September-14,Income,Dividends & Interest Income,28069.13
+2023-September-14,Expense,Utilities,-9809.74
+2023-September-20,Income,Business Income,27767.27
+2023-September-21,Income,Salary,26134.64
+2023-September-24,Income,Business Income,17042.64
+2023-September-26,Expense,Salary,-20281.63
+2023-September-27,Expense,Utilities,-18938.21
+2023-September-27,Income,Salary,11715.8
+2023-September-27,Expense,Health & Medical,-8738.9
+2023-September-29,Income,Dividends & Interest Income,21215.25
+2023-September-29,Income,Rental Income,12316.86
+2023-September-30,Expense,Groceries,-32409.98
+2023-October-02,Income,Business Income,24168.59
+2023-October-04,Income,Dividends & Interest Income,21297.18
+2023-October-04,Expense,Utilities,-5607.96
+2023-October-05,Income,Salary,16810.23
+2023-October-06,Expense,Utilities,-12570.74
+2023-October-06,Expense,Groceries,-32447.95
+2023-October-06,Income,Business Income,26096.12
+2023-October-06,Expense,Salary,-22902.13
+2023-October-06,Expense,Entertainment & Recreation,-6611.63
+2023-October-07,Expense,Salary,-40392.8
+2023-October-11,Income,Rental Income,21958.11
+2023-October-12,Income,Dividends & Interest Income,26564.9
+2023-October-14,Income,Rental Income,14129.24
+2023-October-17,Income,Dividends & Interest Income,20852.86
+2023-October-19,Income,Dividends & Interest Income,19319.56
+2023-October-19,Expense,Rent,-44815.23
+2023-October-21,Expense,Groceries,-24432.44
+2023-October-22,Income,Salary,29498.67
+2023-October-23,Expense,Entertainment & Recreation,-44258.41
+2023-October-23,Expense,Groceries,-22575.82
+2023-October-24,Expense,Entertainment & Recreation,-37950.76
+2023-October-24,Expense,Rent,-17744.12
+2023-October-25,Expense,Rent,-5390.51
+2023-October-27,Income,Business Income,11115.75
+2023-October-28,Expense,Rent,-32947.58
+2023-October-29,Income,Dividends & Interest Income,25896.01
+2023-October-29,Expense,Salary,-34442.68
+2023-October-29,Income,Salary,16287.66
+2023-October-29,Income,Business Income,18296.68
+2023-October-31,Expense,Rent,-4822.59
+2023-November-02,Expense,Entertainment & Recreation,-18772.07
+2023-November-04,Income,Salary,23598.61
+2023-November-05,Expense,Health & Medical,-41831.02
+2023-November-06,Expense,Health & Medical,-10950.6
+2023-November-07,Expense,Rent,-40994.47
+2023-November-07,Income,Rental Income,16009.36
+2023-November-07,Income,Salary,17100.51
+2023-November-07,Expense,Utilities,-43982.9
+2023-November-07,Income,Dividends & Interest Income,10565.86
+2023-November-09,Expense,Entertainment & Recreation,-3905.43
+2023-November-09,Expense,Rent,-9797.6
+2023-November-10,Income,Business Income,24602.76
+2023-November-11,Expense,Groceries,-16856
+2023-November-13,Expense,Groceries,-8466.71
+2023-November-13,Expense,Utilities,-18927.41
+2023-November-14,Income,Rental Income,24502.66
+2023-November-14,Expense,Groceries,-30035.09
+2023-November-15,Income,Dividends & Interest Income,28230.91
+2023-November-16,Income,Business Income,24838.81
+2023-November-17,Income,Business Income,27614.3
+2023-November-17,Income,Business Income,24581.75
+2023-November-18,Expense,Utilities,-8947.35
+2023-November-18,Income,Business Income,20676.97
+2023-November-20,Expense,Salary,-20998.28
+2023-November-20,Income,Rental Income,20684.72
+2023-November-22,Income,Salary,22033.78
+2023-November-23,Income,Rental Income,21349.19
+2023-November-23,Income,Rental Income,29673.59
+2023-November-24,Income,Rental Income,24937.87
+2023-November-24,Income,Salary,12800.5
+2023-December-01,Expense,Utilities,-30845.34
+2023-December-02,Income,Dividends & Interest Income,26198.92
+2023-December-03,Income,Business Income,13496.18
+2023-December-03,Income,Business Income,23401.66
+2023-December-06,Expense,Utilities,-25059.77
+2023-December-07,Expense,Rent,-5635.86
+2023-December-07,Expense,Utilities,-27623.68
+2023-December-09,Income,Salary,24101.83
+2023-December-10,Income,Rental Income,24412.87
+2023-December-10,Income,Salary,14194.19
+2023-December-11,Income,Rental Income,11598.86
+2023-December-13,Expense,Groceries,-18069.08
+2023-December-13,Income,Rental Income,13662.15
+2023-December-14,Income,Dividends & Interest Income,13750.11
+2023-December-14,Income,Rental Income,18982.76
+2023-December-15,Income,Salary,16053.76
+2023-December-16,Income,Salary,16124.94
+2023-December-16,Income,Salary,25148.26
+2023-December-20,Income,Business Income,14889.42
+2023-December-22,Income,Salary,12735.85
+2023-December-24,Expense,Salary,-16278.46
+2023-December-25,Expense,Rent,-28568.38
+2023-December-25,Income,Rental Income,19030.26
+2023-December-27,Expense,Entertainment & Recreation,-48896.78
+2023-December-27,Expense,Entertainment & Recreation,-12557.61
+2023-December-28,Income,Business Income,19473.4
+2023-December-28,Income,Dividends & Interest Income,20783.42
+2023-December-29,Income,Business Income,29286.53
+2023-December-29,Expense,Salary,-42732.84
+2023-December-30,Expense,Salary,-38358.48
