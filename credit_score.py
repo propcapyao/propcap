@@ -34,8 +34,11 @@ totalannualcommitments = st.sidebar.number_input("Total Annual Commitments", min
 
 # Upload the CSV files
 st.sidebar.title("Upload Files")
-uploaded_file_mortgage = st.sidebar.file_uploader("Choose a file for bank statement with mortgage", type=['csv'])
-uploaded_file_without_mortgage = st.sidebar.file_uploader("Choose a file for bank statement without mortgage", type=['csv'])
+#uploaded_file_mortgage = st.sidebar.file_uploader("Choose a file for bank statement with mortgage", type=['csv'])
+#uploaded_file_without_mortgage = st.sidebar.file_uploader("Choose a file for bank statement without mortgage", type=['csv'])
+
+uploaded_file_mortgage = "bank_statement_with_mortgage.csv"
+uploaded_file_without_mortgage = "bank_statement.csv"
 
 if uploaded_file_mortgage and uploaded_file_without_mortgage:
     bank_with_mortgage_df = pd.read_csv(uploaded_file_mortgage)
