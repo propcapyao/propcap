@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import seaborn as sns
 
-st.set_option("deprecation.showPyplotGlobalUse", False)
+#st.set_option("deprecation.showPyplotGlobalUse", False)
 st.set_page_config(layout = "wide")
 
 col1, col2 = st.columns([1, 3])
