@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import numpy as np
 
-st.set_option("deprecation.showPyplotGlobalUse", False)
+#st.set_option("deprecation.showPyplotGlobalUse", False)
 st.set_page_config(layout = "wide")
 
 def check_password():
