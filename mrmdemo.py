@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from google_currency import convert
-st.set_option("deprecation.showPyplotGlobalUse", False)
+#st.set_option("deprecation.showPyplotGlobalUse", False)
 st.set_page_config(layout = "wide")
 
 otherfixfactorbasedrate = 0.0
